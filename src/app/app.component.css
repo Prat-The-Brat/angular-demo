@@ -1,0 +1,49 @@
+h1 {
+    font-family: Arial, sans-serif;
+    color: blue;
+  }
+  
+  
+  /* Container styling */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form styling */
+  .form-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      :nth-child(1) {
+        font-weight: 600;
+      }
+      :nth-child(2) {
+        margin-left: 20px;
+      }
+  }
+  
+  /* Label styling */
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Dropdown styling */
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+  }
+  
+  /* Display text styling */
+  .price-display {
+    margin-top: 20px;
+    font-size: 18px;
+  }
